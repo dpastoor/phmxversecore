@@ -22,6 +22,7 @@ Imports:
     Rcpp,
     RcppArmadillo,
     readxl,
+    roxygen2,
     stringr,
     tidyverse,
     testthat
