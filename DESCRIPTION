@@ -18,6 +18,7 @@ Imports:
     hms,
     knitr,
     lubridate,
+    magrittr,
     modelr,
     Rcpp,
     RcppArmadillo,
