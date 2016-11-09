@@ -10,6 +10,7 @@ Description: Setup and qualify packages key to pharmacometrics
 Depends:
     R (>= 3.3.0)
 Imports:
+    anytime,
     bookdown,
     devtools,
     forcats,
