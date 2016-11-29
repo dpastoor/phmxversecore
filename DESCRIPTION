@@ -19,6 +19,7 @@ Imports:
     lubridate,
     magrittr,
     mrgsolve,
+    overseer,
     PKPDdatasets,
     PKPDmisc,
     Rcpp,
@@ -29,6 +30,7 @@ Imports:
     testthat
 Remotes:
     metrumresearchgroup/mrgsolve/rdev,
+    dpastoor/overseer,
     dpastoor/PKPDdatasets,
     dpastoor/PKPDmisc
 License: MIT + file LICENSE
