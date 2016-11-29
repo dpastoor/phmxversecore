@@ -34,3 +34,5 @@ Remotes:
 License: MIT + file LICENSE
 VignetteBuilder: knitr
 RoxygenNote: 5.0.1
+Suggests: 
+    testthat
