@@ -12,27 +12,48 @@ Depends:
 Imports:
     bookdown,
     devtools,
+    DoseFinding,
     forcats,
     future,
+    HMisc,
     hms,
     knitr,
+    lme4,
     lubridate,
     magrittr,
+    mlxr,
     mrgsolve,
     overseer,
+    PKNCA,
     PKPDdatasets,
     PKPDmisc,
+    PKPDsim,
+    PopED,
     Rcpp,
     RcppArmadillo,
+    rms,
     roxygen2,
+    rpart,
+    rpart.plot,
+    rstan,
+    survminer,
+    saemix,
     stringr,
+    tableone,
     tidyverse,
-    testthat
+    testthat,
+    vpc,
+    xpose4
 Remotes:
-    metrumresearchgroup/mrgsolve/rdev,
+    metrumresearchgroup/mrgsolve/,
     dpastoor/overseer,
     dpastoor/PKPDdatasets,
-    dpastoor/PKPDmisc
+    dpastoor/PKPDmisc,
+    kaz-yos/tableone,
+    andrewhooker/PopED,
+    ronkeizer/vpc,
+    ronkeizer/PKPDsim,
+    kassambara/survminer
 License: MIT + file LICENSE
 VignetteBuilder: knitr
 RoxygenNote: 5.0.1
