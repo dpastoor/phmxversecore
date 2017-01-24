@@ -1,8 +1,8 @@
 Package: phmxversecore
 Type: Package
 Title: Setup and qualify packages key to pharmacometrics
-Version: 0.0.1
-Date: 2016-11-01 
+Version: 0.0.2
+Date: 2017-01-20 
 Authors@R: c(
     person("Devin", "Pastoor",
     email = "devin.pastoor@gmail.com", role = c("aut", "cre")))
@@ -23,6 +23,7 @@ Imports:
     PKPDmisc,
     Rcpp,
     RcppArmadillo,
+    remotes,
     roxygen2,
     satchel,
     tidyverse,
