@@ -10,13 +10,12 @@ Description: Setup and qualify packages key to pharmacometrics
 Depends:
     R (>= 3.3.0)
 Imports:
+    anytime,
     bookdown,
     devtools,
-    forcats,
     future,
     hms,
     knitr,
-    lubridate,
     magrittr,
     mrgsolve,
     overseer,
@@ -25,12 +24,13 @@ Imports:
     Rcpp,
     RcppArmadillo,
     roxygen2,
-    stringr,
+    satchel,
     tidyverse,
     testthat
 Remotes:
-    metrumresearchgroup/mrgsolve/rdev,
+    metrumresearchgroup/mrgsolve,
     dpastoor/overseer,
+    dpastoor/satchel,
     dpastoor/PKPDdatasets,
     dpastoor/PKPDmisc
 License: MIT + file LICENSE
