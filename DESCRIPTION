@@ -1,7 +1,7 @@
 Package: phmxversecore
 Type: Package
 Title: Setup and qualify packages key to pharmacometrics
-Version: 0.0.2
+Version: 0.0.3
 Date: 2017-01-20 
 Authors@R: c(
     person("Devin", "Pastoor",
