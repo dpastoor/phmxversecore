@@ -29,7 +29,6 @@ Imports:
     tidyverse,
     testthat
 Remotes:
-    metrumresearchgroup/mrgsolve,
     dpastoor/overseer,
     dpastoor/satchel,
     dpastoor/PKPDdatasets,
