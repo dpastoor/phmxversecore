@@ -1,8 +1,8 @@
 Package: phmxversecore
 Type: Package
 Title: Setup and qualify packages key to pharmacometrics
-Version: 0.0.3
-Date: 2017-01-20 
+Version: 0.0.4
+Date: 2017-08-30 
 Authors@R: c(
     person("Devin", "Pastoor",
     email = "devin.pastoor@gmail.com", role = c("aut", "cre")))
@@ -31,10 +31,7 @@ Imports:
 Remotes:
     dpastoor/overseer,
     dpastoor/satchel,
-    dpastoor/PKPDdatasets,
-    dpastoor/PKPDmisc
+    dpastoor/PKPDdatasets
 License: MIT + file LICENSE
 VignetteBuilder: knitr
 RoxygenNote: 5.0.1
-Suggests: 
-    testthat
